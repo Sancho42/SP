@@ -1,0 +1,4 @@
+FROM amazonlinux
+COPY q.sh .
+RUN chmod ugo+x q.sh
+CMD ./q.sh
